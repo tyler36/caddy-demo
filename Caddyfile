@@ -1,6 +1,6 @@
 
 # Serve static files from /usr/share/caddy (mapped from ./site)
-localhost {
+mysite.local {
   root * /usr/share/caddy
   file_server
   tls internal
